@@ -1,8 +1,7 @@
 import { Routes, Route, Link} from 'react-router-dom'
-import Menu from "./components/Menu"
-import Algo from './components/Algo'
-import Algo2 from './components/Algo2'
-const app = () => {
+import Algo from './Algo'
+import Algo2 from './Algo2'
+const Menu = () => {
     return <>
         <div>
             <Link to="/" >algo</Link>
@@ -14,4 +13,4 @@ const app = () => {
         </Routes>
     </>
 }
-export default app
+export default Menu
