@@ -1,4 +1,4 @@
-const Algo2 = () => {
+const Examples = () => {
     return <h2>Hello World 2</h2>
 }
-export default Algo2
+export default Examples

@@ -1,0 +1,33 @@
+.app {
+    background-color: aquamarine;
+}
+.footer {
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.download-footer{
+    background-color:aliceblue;
+    margin: 5px;
+    border: none;
+    color: black;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+.download-footer:hover {
+    background-color: darkcyan; /* Green */
+    color: white;
+  }
+.icons{
+    margin: 5px;
+}
+.menu {
+    color:black;
+    background-color: orange;
+    position: sticky;
+    top: 10px;
+}
