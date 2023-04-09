@@ -1,4 +1,4 @@
-import pdf from '../aa.pdf'
+import pdf from '../icons/Esteban_Aspe_CV.pdf'
 const Footer = () => {
   return (<div className='footer'>
     <a className='download-footer' href={pdf} >Download</a>

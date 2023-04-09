@@ -3,7 +3,8 @@ import CV from './CV'
 import Examples from './Expamples'
 const Menu = () => {
     const padding = {
-        padding: 5
+        padding: 5,
+        color: "#FFF",
     }
     return <>
         <div className='menu'>

@@ -1,8 +1,8 @@
 .app {
-    background-color: aquamarine;
+    background-color: white;
 }
 .footer {
-    background-color:aquamarine;
+    background-color:lightsteelblue;
     display: flex;
     justify-content: center;
 }
@@ -19,15 +19,25 @@
     transition-duration: 0.2s;
 }
 .download-footer:hover {
-    background-color: darkcyan; /* Green */
+    background-color: lightseagreen; /* Green */
     color: white;
   }
+.CV-box{
+    display: flex;
+    margin: 2px;
+}
+.img-CV-box {
+    border-radius: 100px;
+    margin: 10px;
+}
+.CV-description {
+    margin: 5px;
+}
 .icons{
     margin: 5px;
 }
 .menu {
     color:black;
-    background-color: orange;
-    position: sticky;
-    top: 10px;
+    background-color: lightsteelblue;
+    position: sticky; 
 }
