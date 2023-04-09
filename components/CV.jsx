@@ -1,9 +1,10 @@
+import miCara from '../icons/mi-cara.jpeg'
 const CV = () => {
     
     return <>
         <h2>CV PAGE</h2>
         <div className="CV-box">
-            <img className="img-CV-box" src='../icons/mi-cara.jpeg'></img>
+            <img className="img-CV-box" src={miCara}></img>
             <p className="CV-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra, elit et bibendum pharetra,
                 justo odio cursus eros, sagittis dictum purus eros nec metus. Suspendisse eleifend,
                 leo congue gravida posuere, metus diam fermentum magna, id molestie ante dolor sit amet diam.
